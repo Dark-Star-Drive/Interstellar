@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
       error: false
     },
     {
-      name: "freemovieswatch.tv",
+      name: "Free Movies Watch",
       link: "https://freemovieswatch.tv",
       image: "/images/icons/freemovieswatch.png",
       categories: ["all", "media", "stream"],
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       name: "Discord",
-      link: "https://discord.com",
+      link: "https://canary.discord.com",
       image: "/images/icons/apps/discord.jpg",
       categories: ["all", "social"],
       error: false
@@ -159,7 +159,8 @@ document.addEventListener('DOMContentLoaded', () => {
       link: "https://open.spotify.com",
       image: "/images/icons/apps/spotify.png",
       categories: ["all", "media"],
-      error: false
+      say: "Spotify is currently not working on the proxy.",
+      error: true
     },
     {
       name: "Telegram",
@@ -240,10 +241,17 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       name: "Discord - Login",
-      link: "https://discord.com/login",
+      link: "https://canary.discord.com/login",
       image: "/images/icons/discord.jpg",
       categories: ["all", "social"],
       blank: "true",
+      error: false
+    },
+    {
+      name: "HD Today",
+      link: "https://hdtoday.tv",
+      image: "/images/icons/hd.png",
+      categories: ["all", "media", "stream"],
       error: false
     },
   ];
